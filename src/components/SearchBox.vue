@@ -35,9 +35,8 @@ export default {
     margin-bottom: 20px;
   }
   .search-box .search-bar{
-    width: 80%;
-    position: relative;
-    left: 10%;
+    width: 70%;
+    margin: 0 auto;
     display: block;
     padding: 15px;
 
@@ -59,5 +58,17 @@ export default {
 
     border-radius: 16px 0 16px 0;
   } 
+
+@media screen and (min-width: 900px){
+  .search-box .search-bar{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1250px){
+  .search-box .search-bar{
+    width: 35%;
+  }
+}
 
 </style>

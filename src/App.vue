@@ -96,4 +96,14 @@ main{
   
   background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
 }
+
+@media screen and (min-width: 700px){
+  #weather-app{
+    background-position: center;
+  }
+  main{
+    padding: 80px;
+  }
+}
+
 </style>
