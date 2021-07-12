@@ -29,7 +29,7 @@ export default {
   data(){
     return {
       apiKey: "d4b0b07b7d30cea07dbf04ca93926016",
-      url_base: "http://api.openweathermap.org/data/2.5/",
+      url_base: "https://api.openweathermap.org/data/2.5/",
       query: "",
       weather: {}
     }
